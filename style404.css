@@ -21,12 +21,12 @@ h1 {
     padding-top: 60px;
     font-size: 50px;
     text-align: center;
-    letter-spacing: 1.7rem;
+    letter-spacing: 1.5rem;
 }
 
 h2{
     padding-top:0px;
-    font-size: 120px;
+    font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,3 +42,4 @@ h2{
 h2, span {
     -webkit-animation:rotate-in-center 8s cubic-bezier(.25,.46,.45,.94) both;animation:rotate-in-center 5s cubic-bezier(.25,.46,.45,.94) both
 };
+
