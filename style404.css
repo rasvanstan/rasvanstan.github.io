@@ -1,0 +1,44 @@
+
+
+
+ @-webkit-keyframes rotate-in-center{0%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg);opacity:0}100%{-webkit-transform:rotate(0);transform:rotate(0);opacity:1}}@keyframes rotate-in-center{0%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg);opacity:0}100%{-webkit-transform:rotate(0);transform:rotate(0);opacity:1}}
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+body{
+    width:95vw;
+    height:95vh;
+    background-color: black;
+    font-family:'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    position:relative;
+    background-image:  linear-gradient(to bottom,rgba(70, 70, 70, 0) , rgba(0, 0, 0, 0.871)70%),
+    url(./images/404-error-page.jpg);
+    opacity: 0.8;
+}
+h1 {
+    padding-top: 60px;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 1.7rem;
+}
+
+h2{
+    padding-top:0px;
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1.5rem;
+}
+.img1{
+    position:absolute;
+    top:15%;
+    left:50%;
+    border-radius: 50%;
+}
+
+h2, span {
+    -webkit-animation:rotate-in-center 8s cubic-bezier(.25,.46,.45,.94) both;animation:rotate-in-center 5s cubic-bezier(.25,.46,.45,.94) both
+};
